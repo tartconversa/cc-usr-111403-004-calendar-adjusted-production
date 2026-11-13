@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "data_version": "sample-1",
+    "as_of": 20
+  },
+  "collections": {
+    "months": [
+      {
+        "id": "m1",
+        "series": "industry",
+        "month": 1,
+        "value": 100,
+        "published": 10,
+        "revision": 1
+      },
+      {
+        "id": "m2",
+        "series": "industry",
+        "month": 2,
+        "value": 80,
+        "published": 30,
+        "revision": 1
+      }
+    ],
+    "calendar": [
+      {
+        "id": "c1",
+        "revision": 1,
+        "month": 1,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.2
+      },
+      {
+        "id": "c2",
+        "revision": 1,
+        "month": 2,
+        "weekday_counts": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.8
+      }
+    ]
+  }
+}
