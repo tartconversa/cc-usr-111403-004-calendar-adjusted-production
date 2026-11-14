@@ -1,0 +1,2968 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "data_version": "synthetic-long-1",
+    "as_of": 77,
+    "interventions": [
+      {
+        "name": "policy_pulse_40",
+        "kind": "pulse",
+        "month": 40,
+        "active_as_of": 40
+      },
+      {
+        "name": "plant_shift_55",
+        "kind": "level_shift",
+        "month": 55,
+        "active_as_of": 55
+      }
+    ],
+    "dgp": {
+      "seed": 20261115,
+      "n_months": 72,
+      "publish_batch_size": 6,
+      "revision_months": {
+        "26": 1.06,
+        "44": 0.95,
+        "58": 1.03
+      },
+      "outlier_months": {
+        "44": 0.72,
+        "60": 1.15
+      },
+      "season_phase": [
+        0.92,
+        0.82,
+        0.95,
+        1.02,
+        1.05,
+        1.08,
+        1.04,
+        1.03,
+        1.06,
+        1.09,
+        1.1,
+        0.84
+      ],
+      "series_specs": {
+        "industry_a": {
+          "base": 100.0,
+          "trend": 0.004,
+          "season_amp": 0.12,
+          "td_beta": 0.004,
+          "holiday_beta": -0.22,
+          "ar_phi": 0.45,
+          "noise_sd": 0.012,
+          "allow_nonpositive": false
+        },
+        "industry_b": {
+          "base": 80.0,
+          "trend": 0.002,
+          "season_amp": 0.08,
+          "td_beta": 0.0025,
+          "holiday_beta": -0.15,
+          "ar_phi": 0.3,
+          "noise_sd": 0.015,
+          "allow_nonpositive": false
+        },
+        "inventory_c": {
+          "base": 30.0,
+          "trend": 0.001,
+          "season_amp": 0.05,
+          "td_beta": 0.0,
+          "holiday_beta": -0.08,
+          "ar_phi": 0.2,
+          "noise_sd": 0.02,
+          "allow_nonpositive": true
+        }
+      },
+      "note": "合成数据不对应真实企业或个人"
+    }
+  },
+  "collections": {
+    "months": [
+      {
+        "id": "industry_a_m1_r1",
+        "series": "industry_a",
+        "month": 1,
+        "value": 77.1311,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m2_r1",
+        "series": "industry_a",
+        "month": 2,
+        "value": 80.6194,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m3_r1",
+        "series": "industry_a",
+        "month": 3,
+        "value": 97.5764,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m4_r1",
+        "series": "industry_a",
+        "month": 4,
+        "value": 103.7987,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m5_r1",
+        "series": "industry_a",
+        "month": 5,
+        "value": 107.1897,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m6_r1",
+        "series": "industry_a",
+        "month": 6,
+        "value": 111.7621,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m7_r1",
+        "series": "industry_a",
+        "month": 7,
+        "value": 105.1546,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m8_r1",
+        "series": "industry_a",
+        "month": 8,
+        "value": 104.0802,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m9_r1",
+        "series": "industry_a",
+        "month": 9,
+        "value": 108.2496,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m10_r1",
+        "series": "industry_a",
+        "month": 10,
+        "value": 110.9539,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m11_r1",
+        "series": "industry_a",
+        "month": 11,
+        "value": 120.1975,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m12_r1",
+        "series": "industry_a",
+        "month": 12,
+        "value": 90.1674,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m13_r1",
+        "series": "industry_a",
+        "month": 13,
+        "value": 87.3129,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m14_r1",
+        "series": "industry_a",
+        "month": 14,
+        "value": 79.206,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m15_r1",
+        "series": "industry_a",
+        "month": 15,
+        "value": 100.4678,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m16_r1",
+        "series": "industry_a",
+        "month": 16,
+        "value": 108.7367,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m17_r1",
+        "series": "industry_a",
+        "month": 17,
+        "value": 111.3682,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m18_r1",
+        "series": "industry_a",
+        "month": 18,
+        "value": 116.5848,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m19_r1",
+        "series": "industry_a",
+        "month": 19,
+        "value": 115.1951,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m20_r1",
+        "series": "industry_a",
+        "month": 20,
+        "value": 112.9641,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m21_r1",
+        "series": "industry_a",
+        "month": 21,
+        "value": 113.9797,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m22_r1",
+        "series": "industry_a",
+        "month": 22,
+        "value": 117.8437,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m23_r1",
+        "series": "industry_a",
+        "month": 23,
+        "value": 121.8176,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m24_r1",
+        "series": "industry_a",
+        "month": 24,
+        "value": 89.7427,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m25_r1",
+        "series": "industry_a",
+        "month": 25,
+        "value": 92.9414,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m26_r1",
+        "series": "industry_a",
+        "month": 26,
+        "value": 81.5411,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m26_r2",
+        "series": "industry_a",
+        "month": 26,
+        "value": 86.4336,
+        "published": 37,
+        "revision": 2
+      },
+      {
+        "id": "industry_a_m27_r1",
+        "series": "industry_a",
+        "month": 27,
+        "value": 106.9715,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m28_r1",
+        "series": "industry_a",
+        "month": 28,
+        "value": 112.38,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m29_r1",
+        "series": "industry_a",
+        "month": 29,
+        "value": 116.9782,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m30_r1",
+        "series": "industry_a",
+        "month": 30,
+        "value": 122.1873,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m31_r1",
+        "series": "industry_a",
+        "month": 31,
+        "value": 119.5057,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m32_r1",
+        "series": "industry_a",
+        "month": 32,
+        "value": 118.7831,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m33_r1",
+        "series": "industry_a",
+        "month": 33,
+        "value": 123.0401,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m34_r1",
+        "series": "industry_a",
+        "month": 34,
+        "value": 124.7581,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m35_r1",
+        "series": "industry_a",
+        "month": 35,
+        "value": 122.4701,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m36_r1",
+        "series": "industry_a",
+        "month": 36,
+        "value": 98.3749,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m37_r1",
+        "series": "industry_a",
+        "month": 37,
+        "value": 103.1434,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m38_r1",
+        "series": "industry_a",
+        "month": 38,
+        "value": 78.6329,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m39_r1",
+        "series": "industry_a",
+        "month": 39,
+        "value": 112.8577,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m40_r1",
+        "series": "industry_a",
+        "month": 40,
+        "value": 112.3291,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m41_r1",
+        "series": "industry_a",
+        "month": 41,
+        "value": 129.6084,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m42_r1",
+        "series": "industry_a",
+        "month": 42,
+        "value": 129.7689,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m43_r1",
+        "series": "industry_a",
+        "month": 43,
+        "value": 120.8293,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m44_r1",
+        "series": "industry_a",
+        "month": 44,
+        "value": 89.1933,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m44_r2",
+        "series": "industry_a",
+        "month": 44,
+        "value": 84.7336,
+        "published": 55,
+        "revision": 2
+      },
+      {
+        "id": "industry_a_m45_r1",
+        "series": "industry_a",
+        "month": 45,
+        "value": 130.4497,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m46_r1",
+        "series": "industry_a",
+        "month": 46,
+        "value": 133.7463,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m47_r1",
+        "series": "industry_a",
+        "month": 47,
+        "value": 135.9248,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m48_r1",
+        "series": "industry_a",
+        "month": 48,
+        "value": 103.9003,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m49_r1",
+        "series": "industry_a",
+        "month": 49,
+        "value": 94.0755,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m50_r1",
+        "series": "industry_a",
+        "month": 50,
+        "value": 97.1531,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m51_r1",
+        "series": "industry_a",
+        "month": 51,
+        "value": 115.6236,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m52_r1",
+        "series": "industry_a",
+        "month": 52,
+        "value": 121.161,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m53_r1",
+        "series": "industry_a",
+        "month": 53,
+        "value": 130.1531,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m54_r1",
+        "series": "industry_a",
+        "month": 54,
+        "value": 136.2379,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m55_r1",
+        "series": "industry_a",
+        "month": 55,
+        "value": 138.4701,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m56_r1",
+        "series": "industry_a",
+        "month": 56,
+        "value": 136.5558,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m57_r1",
+        "series": "industry_a",
+        "month": 57,
+        "value": 138.9454,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m58_r1",
+        "series": "industry_a",
+        "month": 58,
+        "value": 142.1473,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m58_r2",
+        "series": "industry_a",
+        "month": 58,
+        "value": 146.4117,
+        "published": 69,
+        "revision": 2
+      },
+      {
+        "id": "industry_a_m59_r1",
+        "series": "industry_a",
+        "month": 59,
+        "value": 148.0124,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m60_r1",
+        "series": "industry_a",
+        "month": 60,
+        "value": 130.4481,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m61_r1",
+        "series": "industry_a",
+        "month": 61,
+        "value": 109.1422,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m62_r1",
+        "series": "industry_a",
+        "month": 62,
+        "value": 102.2257,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m63_r1",
+        "series": "industry_a",
+        "month": 63,
+        "value": 125.8245,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m64_r1",
+        "series": "industry_a",
+        "month": 64,
+        "value": 136.4245,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m65_r1",
+        "series": "industry_a",
+        "month": 65,
+        "value": 143.4818,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m66_r1",
+        "series": "industry_a",
+        "month": 66,
+        "value": 147.127,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m67_r1",
+        "series": "industry_a",
+        "month": 67,
+        "value": 147.6472,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m68_r1",
+        "series": "industry_a",
+        "month": 68,
+        "value": 148.5497,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m69_r1",
+        "series": "industry_a",
+        "month": 69,
+        "value": 148.9773,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m70_r1",
+        "series": "industry_a",
+        "month": 70,
+        "value": 151.7587,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m71_r1",
+        "series": "industry_a",
+        "month": 71,
+        "value": 152.9679,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "industry_a_m72_r1",
+        "series": "industry_a",
+        "month": 72,
+        "value": 120.2234,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m1_r1",
+        "series": "industry_b",
+        "month": 1,
+        "value": 64.3164,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m2_r1",
+        "series": "industry_b",
+        "month": 2,
+        "value": 62.0589,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m3_r1",
+        "series": "industry_b",
+        "month": 3,
+        "value": 76.4532,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m4_r1",
+        "series": "industry_b",
+        "month": 4,
+        "value": 81.0755,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m5_r1",
+        "series": "industry_b",
+        "month": 5,
+        "value": 84.6164,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m6_r1",
+        "series": "industry_b",
+        "month": 6,
+        "value": 88.8962,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m7_r1",
+        "series": "industry_b",
+        "month": 7,
+        "value": 85.5264,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m8_r1",
+        "series": "industry_b",
+        "month": 8,
+        "value": 84.8463,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m9_r1",
+        "series": "industry_b",
+        "month": 9,
+        "value": 87.3784,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m10_r1",
+        "series": "industry_b",
+        "month": 10,
+        "value": 89.0417,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m11_r1",
+        "series": "industry_b",
+        "month": 11,
+        "value": 92.4885,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m12_r1",
+        "series": "industry_b",
+        "month": 12,
+        "value": 68.7323,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m13_r1",
+        "series": "industry_b",
+        "month": 13,
+        "value": 69.7966,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m14_r1",
+        "series": "industry_b",
+        "month": 14,
+        "value": 61.584,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m15_r1",
+        "series": "industry_b",
+        "month": 15,
+        "value": 80.5039,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m16_r1",
+        "series": "industry_b",
+        "month": 16,
+        "value": 84.918,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m17_r1",
+        "series": "industry_b",
+        "month": 17,
+        "value": 87.2869,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m18_r1",
+        "series": "industry_b",
+        "month": 18,
+        "value": 91.363,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m19_r1",
+        "series": "industry_b",
+        "month": 19,
+        "value": 85.9264,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m20_r1",
+        "series": "industry_b",
+        "month": 20,
+        "value": 87.9174,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m21_r1",
+        "series": "industry_b",
+        "month": 21,
+        "value": 89.472,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m22_r1",
+        "series": "industry_b",
+        "month": 22,
+        "value": 90.3293,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m23_r1",
+        "series": "industry_b",
+        "month": 23,
+        "value": 89.0933,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m24_r1",
+        "series": "industry_b",
+        "month": 24,
+        "value": 68.3695,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m25_r1",
+        "series": "industry_b",
+        "month": 25,
+        "value": 71.8154,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m26_r1",
+        "series": "industry_b",
+        "month": 26,
+        "value": 62.7614,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m26_r2",
+        "series": "industry_b",
+        "month": 26,
+        "value": 66.5271,
+        "published": 37,
+        "revision": 2
+      },
+      {
+        "id": "industry_b_m27_r1",
+        "series": "industry_b",
+        "month": 27,
+        "value": 80.7854,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m28_r1",
+        "series": "industry_b",
+        "month": 28,
+        "value": 87.584,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m29_r1",
+        "series": "industry_b",
+        "month": 29,
+        "value": 89.9738,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m30_r1",
+        "series": "industry_b",
+        "month": 30,
+        "value": 91.1587,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m31_r1",
+        "series": "industry_b",
+        "month": 31,
+        "value": 89.8172,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m32_r1",
+        "series": "industry_b",
+        "month": 32,
+        "value": 89.7803,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m33_r1",
+        "series": "industry_b",
+        "month": 33,
+        "value": 91.6329,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m34_r1",
+        "series": "industry_b",
+        "month": 34,
+        "value": 94.6208,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m35_r1",
+        "series": "industry_b",
+        "month": 35,
+        "value": 94.3305,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m36_r1",
+        "series": "industry_b",
+        "month": 36,
+        "value": 74.2274,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m37_r1",
+        "series": "industry_b",
+        "month": 37,
+        "value": 80.869,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m38_r1",
+        "series": "industry_b",
+        "month": 38,
+        "value": 63.5167,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m39_r1",
+        "series": "industry_b",
+        "month": 39,
+        "value": 81.5717,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m40_r1",
+        "series": "industry_b",
+        "month": 40,
+        "value": 80.2777,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m41_r1",
+        "series": "industry_b",
+        "month": 41,
+        "value": 90.4035,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m42_r1",
+        "series": "industry_b",
+        "month": 42,
+        "value": 92.9652,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m43_r1",
+        "series": "industry_b",
+        "month": 43,
+        "value": 90.3873,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m44_r1",
+        "series": "industry_b",
+        "month": 44,
+        "value": 65.0319,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m44_r2",
+        "series": "industry_b",
+        "month": 44,
+        "value": 61.7803,
+        "published": 55,
+        "revision": 2
+      },
+      {
+        "id": "industry_b_m45_r1",
+        "series": "industry_b",
+        "month": 45,
+        "value": 95.0378,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m46_r1",
+        "series": "industry_b",
+        "month": 46,
+        "value": 96.4932,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m47_r1",
+        "series": "industry_b",
+        "month": 47,
+        "value": 95.5913,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m48_r1",
+        "series": "industry_b",
+        "month": 48,
+        "value": 75.6931,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m49_r1",
+        "series": "industry_b",
+        "month": 49,
+        "value": 70.2302,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m50_r1",
+        "series": "industry_b",
+        "month": 50,
+        "value": 70.1629,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m51_r1",
+        "series": "industry_b",
+        "month": 51,
+        "value": 82.473,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m52_r1",
+        "series": "industry_b",
+        "month": 52,
+        "value": 89.7252,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m53_r1",
+        "series": "industry_b",
+        "month": 53,
+        "value": 95.1559,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m54_r1",
+        "series": "industry_b",
+        "month": 54,
+        "value": 98.1741,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m55_r1",
+        "series": "industry_b",
+        "month": 55,
+        "value": 98.7479,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m56_r1",
+        "series": "industry_b",
+        "month": 56,
+        "value": 96.2341,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m57_r1",
+        "series": "industry_b",
+        "month": 57,
+        "value": 98.6405,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m58_r1",
+        "series": "industry_b",
+        "month": 58,
+        "value": 100.0018,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m58_r2",
+        "series": "industry_b",
+        "month": 58,
+        "value": 103.0019,
+        "published": 69,
+        "revision": 2
+      },
+      {
+        "id": "industry_b_m59_r1",
+        "series": "industry_b",
+        "month": 59,
+        "value": 102.6449,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m60_r1",
+        "series": "industry_b",
+        "month": 60,
+        "value": 94.4755,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m61_r1",
+        "series": "industry_b",
+        "month": 61,
+        "value": 82.1791,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m62_r1",
+        "series": "industry_b",
+        "month": 62,
+        "value": 77.1486,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m63_r1",
+        "series": "industry_b",
+        "month": 63,
+        "value": 91.5131,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m64_r1",
+        "series": "industry_b",
+        "month": 64,
+        "value": 98.5196,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m65_r1",
+        "series": "industry_b",
+        "month": 65,
+        "value": 101.3527,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m66_r1",
+        "series": "industry_b",
+        "month": 66,
+        "value": 104.4697,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m67_r1",
+        "series": "industry_b",
+        "month": 67,
+        "value": 102.8833,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m68_r1",
+        "series": "industry_b",
+        "month": 68,
+        "value": 100.083,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m69_r1",
+        "series": "industry_b",
+        "month": 69,
+        "value": 101.9147,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m70_r1",
+        "series": "industry_b",
+        "month": 70,
+        "value": 105.7658,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m71_r1",
+        "series": "industry_b",
+        "month": 71,
+        "value": 103.7208,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "industry_b_m72_r1",
+        "series": "industry_b",
+        "month": 72,
+        "value": 79.8514,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m1_r1",
+        "series": "inventory_c",
+        "month": 1,
+        "value": 25.5964,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m2_r1",
+        "series": "inventory_c",
+        "month": 2,
+        "value": 24.0956,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m3_r1",
+        "series": "inventory_c",
+        "month": 3,
+        "value": 28.1164,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m4_r1",
+        "series": "inventory_c",
+        "month": 4,
+        "value": 31.2691,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m5_r1",
+        "series": "inventory_c",
+        "month": 5,
+        "value": 31.1838,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m6_r1",
+        "series": "inventory_c",
+        "month": 6,
+        "value": 33.3605,
+        "published": 11,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m7_r1",
+        "series": "inventory_c",
+        "month": 7,
+        "value": 31.5464,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m8_r1",
+        "series": "inventory_c",
+        "month": 8,
+        "value": 30.3239,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m9_r1",
+        "series": "inventory_c",
+        "month": 9,
+        "value": 31.6418,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m10_r1",
+        "series": "inventory_c",
+        "month": 10,
+        "value": 32.037,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m11_r1",
+        "series": "inventory_c",
+        "month": 11,
+        "value": 33.8521,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m12_r1",
+        "series": "inventory_c",
+        "month": 12,
+        "value": 26.3607,
+        "published": 17,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m13_r1",
+        "series": "inventory_c",
+        "month": 13,
+        "value": 26.2586,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m14_r1",
+        "series": "inventory_c",
+        "month": 14,
+        "value": 25.4547,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m15_r1",
+        "series": "inventory_c",
+        "month": 15,
+        "value": 29.9159,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m16_r1",
+        "series": "inventory_c",
+        "month": 16,
+        "value": 31.4956,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m17_r1",
+        "series": "inventory_c",
+        "month": 17,
+        "value": 0.0,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m18_r1",
+        "series": "inventory_c",
+        "month": 18,
+        "value": 31.2477,
+        "published": 23,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m19_r1",
+        "series": "inventory_c",
+        "month": 19,
+        "value": 30.4696,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m20_r1",
+        "series": "inventory_c",
+        "month": 20,
+        "value": 30.2328,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m21_r1",
+        "series": "inventory_c",
+        "month": 21,
+        "value": 31.2606,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m22_r1",
+        "series": "inventory_c",
+        "month": 22,
+        "value": 33.5327,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m23_r1",
+        "series": "inventory_c",
+        "month": 23,
+        "value": 33.9585,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m24_r1",
+        "series": "inventory_c",
+        "month": 24,
+        "value": 25.2106,
+        "published": 29,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m25_r1",
+        "series": "inventory_c",
+        "month": 25,
+        "value": 27.2685,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m26_r1",
+        "series": "inventory_c",
+        "month": 26,
+        "value": 24.3154,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m26_r2",
+        "series": "inventory_c",
+        "month": 26,
+        "value": 25.7743,
+        "published": 37,
+        "revision": 2
+      },
+      {
+        "id": "inventory_c_m27_r1",
+        "series": "inventory_c",
+        "month": 27,
+        "value": 30.1545,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m28_r1",
+        "series": "inventory_c",
+        "month": 28,
+        "value": 32.1466,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m29_r1",
+        "series": "inventory_c",
+        "month": 29,
+        "value": 34.9652,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m30_r1",
+        "series": "inventory_c",
+        "month": 30,
+        "value": 34.4973,
+        "published": 35,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m31_r1",
+        "series": "inventory_c",
+        "month": 31,
+        "value": 32.4683,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m32_r1",
+        "series": "inventory_c",
+        "month": 32,
+        "value": 32.1025,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m33_r1",
+        "series": "inventory_c",
+        "month": 33,
+        "value": 33.7022,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m34_r1",
+        "series": "inventory_c",
+        "month": 34,
+        "value": 33.2397,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m35_r1",
+        "series": "inventory_c",
+        "month": 35,
+        "value": 33.9379,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m36_r1",
+        "series": "inventory_c",
+        "month": 36,
+        "value": 26.2163,
+        "published": 41,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m37_r1",
+        "series": "inventory_c",
+        "month": 37,
+        "value": 28.451,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m38_r1",
+        "series": "inventory_c",
+        "month": 38,
+        "value": 24.2259,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m39_r1",
+        "series": "inventory_c",
+        "month": 39,
+        "value": 30.2401,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m40_r1",
+        "series": "inventory_c",
+        "month": 40,
+        "value": 28.4225,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m41_r1",
+        "series": "inventory_c",
+        "month": 41,
+        "value": 33.4735,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m42_r1",
+        "series": "inventory_c",
+        "month": 42,
+        "value": 34.4641,
+        "published": 47,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m43_r1",
+        "series": "inventory_c",
+        "month": 43,
+        "value": 32.7349,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m44_r1",
+        "series": "inventory_c",
+        "month": 44,
+        "value": 23.462,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m44_r2",
+        "series": "inventory_c",
+        "month": 44,
+        "value": 22.2889,
+        "published": 55,
+        "revision": 2
+      },
+      {
+        "id": "inventory_c_m45_r1",
+        "series": "inventory_c",
+        "month": 45,
+        "value": 33.1685,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m46_r1",
+        "series": "inventory_c",
+        "month": 46,
+        "value": 35.3519,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m47_r1",
+        "series": "inventory_c",
+        "month": 47,
+        "value": 34.2379,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m48_r1",
+        "series": "inventory_c",
+        "month": 48,
+        "value": 26.6612,
+        "published": 53,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m49_r1",
+        "series": "inventory_c",
+        "month": 49,
+        "value": 27.8524,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m50_r1",
+        "series": "inventory_c",
+        "month": 50,
+        "value": 25.5125,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m51_r1",
+        "series": "inventory_c",
+        "month": 51,
+        "value": 29.4852,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m52_r1",
+        "series": "inventory_c",
+        "month": 52,
+        "value": 31.9107,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m53_r1",
+        "series": "inventory_c",
+        "month": 53,
+        "value": 33.4634,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m54_r1",
+        "series": "inventory_c",
+        "month": 54,
+        "value": 34.5885,
+        "published": 59,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m55_r1",
+        "series": "inventory_c",
+        "month": 55,
+        "value": 33.3552,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m56_r1",
+        "series": "inventory_c",
+        "month": 56,
+        "value": 34.7877,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m57_r1",
+        "series": "inventory_c",
+        "month": 57,
+        "value": 34.6238,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m58_r1",
+        "series": "inventory_c",
+        "month": 58,
+        "value": 35.2555,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m58_r2",
+        "series": "inventory_c",
+        "month": 58,
+        "value": 36.3132,
+        "published": 69,
+        "revision": 2
+      },
+      {
+        "id": "inventory_c_m59_r1",
+        "series": "inventory_c",
+        "month": 59,
+        "value": 36.8846,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m60_r1",
+        "series": "inventory_c",
+        "month": 60,
+        "value": 32.1565,
+        "published": 65,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m61_r1",
+        "series": "inventory_c",
+        "month": 61,
+        "value": 29.063,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m62_r1",
+        "series": "inventory_c",
+        "month": 62,
+        "value": 26.668,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m63_r1",
+        "series": "inventory_c",
+        "month": 63,
+        "value": 32.327,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m64_r1",
+        "series": "inventory_c",
+        "month": 64,
+        "value": 34.6345,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m65_r1",
+        "series": "inventory_c",
+        "month": 65,
+        "value": 34.5921,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m66_r1",
+        "series": "inventory_c",
+        "month": 66,
+        "value": 36.4402,
+        "published": 71,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m67_r1",
+        "series": "inventory_c",
+        "month": 67,
+        "value": 35.0355,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m68_r1",
+        "series": "inventory_c",
+        "month": 68,
+        "value": 36.0909,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m69_r1",
+        "series": "inventory_c",
+        "month": 69,
+        "value": 35.9386,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m70_r1",
+        "series": "inventory_c",
+        "month": 70,
+        "value": 36.9566,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m71_r1",
+        "series": "inventory_c",
+        "month": 71,
+        "value": 39.7702,
+        "published": 77,
+        "revision": 1
+      },
+      {
+        "id": "inventory_c_m72_r1",
+        "series": "inventory_c",
+        "month": 72,
+        "value": 28.9122,
+        "published": 77,
+        "revision": 1
+      }
+    ],
+    "calendar": [
+      {
+        "id": "c1",
+        "revision": 1,
+        "month": 1,
+        "weekday_counts": [
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.8
+      },
+      {
+        "id": "c2",
+        "revision": 1,
+        "month": 2,
+        "weekday_counts": [
+          5,
+          5,
+          4,
+          4,
+          4,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.2
+      },
+      {
+        "id": "c3",
+        "revision": 1,
+        "month": 3,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c4",
+        "revision": 1,
+        "month": 4,
+        "weekday_counts": [
+          6,
+          5,
+          5,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c5",
+        "revision": 1,
+        "month": 5,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c6",
+        "revision": 1,
+        "month": 6,
+        "weekday_counts": [
+          5,
+          5,
+          6,
+          5,
+          5,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c7",
+        "revision": 1,
+        "month": 7,
+        "weekday_counts": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c8",
+        "revision": 1,
+        "month": 8,
+        "weekday_counts": [
+          5,
+          4,
+          4,
+          4,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c9",
+        "revision": 1,
+        "month": 9,
+        "weekday_counts": [
+          5,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c10",
+        "revision": 1,
+        "month": 10,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          5
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c11",
+        "revision": 1,
+        "month": 11,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c12",
+        "revision": 1,
+        "month": 12,
+        "weekday_counts": [
+          5,
+          6,
+          5,
+          5,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c13",
+        "revision": 1,
+        "month": 13,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.6
+      },
+      {
+        "id": "c14",
+        "revision": 1,
+        "month": 14,
+        "weekday_counts": [
+          4,
+          4,
+          4,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.4
+      },
+      {
+        "id": "c15",
+        "revision": 1,
+        "month": 15,
+        "weekday_counts": [
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c16",
+        "revision": 1,
+        "month": 16,
+        "weekday_counts": [
+          5,
+          5,
+          4,
+          4,
+          4,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c17",
+        "revision": 1,
+        "month": 17,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c18",
+        "revision": 1,
+        "month": 18,
+        "weekday_counts": [
+          6,
+          5,
+          5,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c19",
+        "revision": 1,
+        "month": 19,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c20",
+        "revision": 1,
+        "month": 20,
+        "weekday_counts": [
+          5,
+          5,
+          6,
+          5,
+          5,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c21",
+        "revision": 1,
+        "month": 21,
+        "weekday_counts": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c22",
+        "revision": 1,
+        "month": 22,
+        "weekday_counts": [
+          5,
+          4,
+          4,
+          4,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c23",
+        "revision": 1,
+        "month": 23,
+        "weekday_counts": [
+          5,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c24",
+        "revision": 1,
+        "month": 24,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          5
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c25",
+        "revision": 1,
+        "month": 25,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.4
+      },
+      {
+        "id": "c26",
+        "revision": 1,
+        "month": 26,
+        "weekday_counts": [
+          5,
+          6,
+          5,
+          5,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.6
+      },
+      {
+        "id": "c27",
+        "revision": 1,
+        "month": 27,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c28",
+        "revision": 1,
+        "month": 28,
+        "weekday_counts": [
+          4,
+          4,
+          4,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c29",
+        "revision": 1,
+        "month": 29,
+        "weekday_counts": [
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c30",
+        "revision": 1,
+        "month": 30,
+        "weekday_counts": [
+          5,
+          5,
+          4,
+          4,
+          4,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c31",
+        "revision": 1,
+        "month": 31,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c32",
+        "revision": 1,
+        "month": 32,
+        "weekday_counts": [
+          6,
+          5,
+          5,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c33",
+        "revision": 1,
+        "month": 33,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c34",
+        "revision": 1,
+        "month": 34,
+        "weekday_counts": [
+          5,
+          5,
+          6,
+          5,
+          5,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c35",
+        "revision": 1,
+        "month": 35,
+        "weekday_counts": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c36",
+        "revision": 1,
+        "month": 36,
+        "weekday_counts": [
+          5,
+          4,
+          4,
+          4,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c37",
+        "revision": 1,
+        "month": 37,
+        "weekday_counts": [
+          5,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.2
+      },
+      {
+        "id": "c38",
+        "revision": 1,
+        "month": 38,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          5
+        ],
+        "holiday_overlap": 0.8
+      },
+      {
+        "id": "c39",
+        "revision": 1,
+        "month": 39,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c40",
+        "revision": 1,
+        "month": 40,
+        "weekday_counts": [
+          5,
+          6,
+          5,
+          5,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c41",
+        "revision": 1,
+        "month": 41,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c42",
+        "revision": 1,
+        "month": 42,
+        "weekday_counts": [
+          4,
+          4,
+          4,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c43",
+        "revision": 1,
+        "month": 43,
+        "weekday_counts": [
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c44",
+        "revision": 1,
+        "month": 44,
+        "weekday_counts": [
+          5,
+          5,
+          4,
+          4,
+          4,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c45",
+        "revision": 1,
+        "month": 45,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c46",
+        "revision": 1,
+        "month": 46,
+        "weekday_counts": [
+          6,
+          5,
+          5,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c47",
+        "revision": 1,
+        "month": 47,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c48",
+        "revision": 1,
+        "month": 48,
+        "weekday_counts": [
+          5,
+          5,
+          6,
+          5,
+          5,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c49",
+        "revision": 1,
+        "month": 49,
+        "weekday_counts": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.8
+      },
+      {
+        "id": "c50",
+        "revision": 1,
+        "month": 50,
+        "weekday_counts": [
+          5,
+          4,
+          4,
+          4,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.2
+      },
+      {
+        "id": "c51",
+        "revision": 1,
+        "month": 51,
+        "weekday_counts": [
+          5,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c52",
+        "revision": 1,
+        "month": 52,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          5
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c53",
+        "revision": 1,
+        "month": 53,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c54",
+        "revision": 1,
+        "month": 54,
+        "weekday_counts": [
+          5,
+          6,
+          5,
+          5,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c55",
+        "revision": 1,
+        "month": 55,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c56",
+        "revision": 1,
+        "month": 56,
+        "weekday_counts": [
+          4,
+          4,
+          4,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c57",
+        "revision": 1,
+        "month": 57,
+        "weekday_counts": [
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c58",
+        "revision": 1,
+        "month": 58,
+        "weekday_counts": [
+          5,
+          5,
+          4,
+          4,
+          4,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c59",
+        "revision": 1,
+        "month": 59,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c60",
+        "revision": 1,
+        "month": 60,
+        "weekday_counts": [
+          6,
+          5,
+          5,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c61",
+        "revision": 1,
+        "month": 61,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.6
+      },
+      {
+        "id": "c62",
+        "revision": 1,
+        "month": 62,
+        "weekday_counts": [
+          5,
+          5,
+          6,
+          5,
+          5,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.4
+      },
+      {
+        "id": "c63",
+        "revision": 1,
+        "month": 63,
+        "weekday_counts": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c64",
+        "revision": 1,
+        "month": 64,
+        "weekday_counts": [
+          5,
+          4,
+          4,
+          4,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c65",
+        "revision": 1,
+        "month": 65,
+        "weekday_counts": [
+          5,
+          5,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c66",
+        "revision": 1,
+        "month": 66,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          4,
+          4,
+          4,
+          5
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c67",
+        "revision": 1,
+        "month": 67,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c68",
+        "revision": 1,
+        "month": 68,
+        "weekday_counts": [
+          5,
+          6,
+          5,
+          5,
+          5,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c69",
+        "revision": 1,
+        "month": 69,
+        "weekday_counts": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c70",
+        "revision": 1,
+        "month": 70,
+        "weekday_counts": [
+          4,
+          4,
+          4,
+          5,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c71",
+        "revision": 1,
+        "month": 71,
+        "weekday_counts": [
+          5,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "holiday_overlap": 0.0
+      },
+      {
+        "id": "c72",
+        "revision": 1,
+        "month": 72,
+        "weekday_counts": [
+          5,
+          5,
+          4,
+          4,
+          4,
+          5,
+          4
+        ],
+        "holiday_overlap": 0.0
+      }
+    ]
+  }
+}

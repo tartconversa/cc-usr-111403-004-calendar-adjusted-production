@@ -17,3 +17,9 @@ months含series、month、value、published、revision，calendar含month、week
 ## 当前能力
 
 app.baseline.analyze(snapshot)产生已有摘要，app.service.inspect负责绑定输入身份；新增分析可以增设独立入口，已有接口及上述数据语义保持兼容。
+
+## 季节调整扩展约定
+
+metadata可选用interventions字段声明事前已知干预（缺失或为空表示无干预）。每条干预为对象，含非空字符串name、kind（仅pulse或level_shift）、整数month，以及可选active_as_of（该信息首次可知的发布时点，缺省视为始终已知）。干预清单是事前资料，季节调整不得从产量序列反推干预；pulse在锚定月取1，level_shift自锚定月起取1。信息截止时点之后才可知、或在当前观测窗口内尚未发生（零列）的干预不进入设计矩阵，剔除情况在诊断中留痕。
+
+季节调整新增三个独立入口且不改变inspect语义：app.service.adjust输出未调整、日历调整与季调三条序列及残留季节性、残差相关、不可识别三类诊断；app.service.realtime按历史发布逐步扩展样本并分解新增月份、历史值修订与重新选模三类末端修订（固定口径轨道重新选模效应恒为0）；app.service.replay_frozen从冻结负载（含实际月份、设计矩阵、模型参数、选模候选与异常轨迹）重放并逐项核对。序列间可复用同一日历设计，但回归参数、AR参数与调整结果按序列独立估计，不得串用。出现零或负值导致对数变换无定义时，退回恒等（加法）分解并记录触发原因，不丢弃观测。
